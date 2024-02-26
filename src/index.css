@@ -20,6 +20,21 @@ body {
         @apply w-11/12 max-w-7xl mx-auto my-0
     }
 
+    .underline-effect {
+        @apply
+            after:content-none
+            md:after:content-['']
+            after:w-0
+            after:h-[2px]
+            after:absolute
+            after:m-auto
+            after:bottom-[-4px]
+            after:left-0
+            after:block
+            hover:after:w-full
+            hover:after:transition-all
+            duration-300
+            ease-linear;
+    }
+
 }
-
-

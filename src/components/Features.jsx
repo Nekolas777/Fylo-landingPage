@@ -7,7 +7,7 @@ export const Features = () => {
 
   return (
     <section className="bg-slate-700 py-20" id="feature">
-      <div className="container-section border-[1px] border-red-500">
+      <div className="container-section">
         <div className="grid grid-rows-4 grid-cols-1 gap-16 font-raleway
           md:grid-rows-2 md:grid-cols-2 md:gap-y-16 md:gap-x-20 lg:px-32">
           <article className="text-primary text-center text-wrap
