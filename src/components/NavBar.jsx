@@ -23,7 +23,7 @@ export const NavBar = () => {
   //flex flex-row gap-12 text-xl text-primary font-raleway font-light
 
   return (
-    <header className="w-full bg-slate-800 sticky top-0">
+    <header className="w-full bg-slate-800 sticky top-0 z-50">
       <nav className="container h-32 flex items-center justify-between">
         <a href="#"><img className="min-w-36" src={ Favicon }/></a>
         <div className={`h-[unset] w-11/12 fixed mx-auto ${nav? 'translate-y-[80%]' : 'translate-y-[-100%]'} 
