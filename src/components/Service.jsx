@@ -1,8 +1,6 @@
 import ServiceIcon from "../assets/images/illustration-stay-productive.png";
 import ArrowIcon from "../assets/images/icon-arrow.svg";
 
-/* grid grid-rows-1 grid-cols-2 */
-
 export const Service = () => {
 
     return (
