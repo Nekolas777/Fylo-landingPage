@@ -10,7 +10,7 @@ export const Hero = () => {
         <section id="hero" className="bg-slate-800 py-5">
             <div className="container-section border-[1px] border-gray-100 flex flex-col items-center">
                 <img src={HeroImg} className="max-w-[38rem] w-full" />
-                <div className="font-raleway text-center mt-12 max-w-[38rem] flex flex-col items-center gap-7 px-10">
+                <div className="font-raleway text-center mt-12 max-w-[38rem] flex flex-col items-center gap-7 px-2 md:px-10">
                     <h1 className="text-4xl text-wrap text-primary font-semibold leading-normal">
                         All your file in one secure location, accesible anywhere.</h1>
                     <p className="text-lg text-wrap text-slate-300 font-medium">
