@@ -3,8 +3,6 @@ import FileIcon from "../assets/images/icon-any-file.svg";
 import CollabIcon from "../assets/images/icon-collaboration.svg";
 import SecurityIcon from "../assets/images/icon-security.svg";
 
-/* grid grid-rows-2 grid-cols-2 px-32 gap-y-12 gap-x-20 font-raleway */
-
 export const Features = () => {
 
   return (
