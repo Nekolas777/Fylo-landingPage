@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100vh;
     color: #333;

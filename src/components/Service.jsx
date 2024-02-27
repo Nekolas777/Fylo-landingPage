@@ -4,7 +4,7 @@ import ArrowIcon from "../assets/images/icon-arrow.svg";
 export const Service = () => {
 
     return (
-        <section className="bg-slate-800 py-20" id="service">
+        <section className="bg-main py-20" id="service">
             <div className="container-section grid grid-auto-rows grid-cols-1 gap-10 
                 md:grid-rows-1 md:grid-cols-2 md:gap-5 lg:gap-0">
                 <div>

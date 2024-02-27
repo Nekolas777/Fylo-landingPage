@@ -7,9 +7,9 @@ import HamburguerMenu from "../assets/images/hamburguer.svg";
 import CloseMenu from "../assets/images/close.svg";
 
 const links = [
-  { name: 'Features', path: "/" },
-  { name: 'Team', path: "/" },
-  { name: 'Testimonials', path: "/" },
+  { name: 'Features', path: "#feature" },
+  { name: 'Team', path: "#service" },
+  { name: 'Testimonials', path: "#testimonials" },
 ]
 
 export const NavBar = () => {
@@ -23,8 +23,8 @@ export const NavBar = () => {
   //flex flex-row gap-12 text-xl text-primary font-raleway font-light
 
   return (
-    <header className="w-full bg-slate-800 sticky top-0 z-50">
-      <nav className="container h-32 flex items-center justify-between">
+    <header className="w-full bg-intro sticky top-0 z-50">
+      <nav className="container relative min-h-full h-32 flex items-center justify-between">
         <a href="#"><img className="min-w-36" src={ Favicon }/></a>
         <div className={`h-[unset] w-11/12 fixed mx-auto ${nav? 'translate-y-[80%]' : 'translate-y-[-100%]'} 
           md:relative md:flex md:transform-none md:h-auto md:w-auto md:mx-0`}>

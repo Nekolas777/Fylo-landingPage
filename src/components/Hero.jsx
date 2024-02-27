@@ -7,7 +7,7 @@ import { Button } from "./Button"
 export const Hero = () => {
 
     return (
-        <section id="hero" className="bg-slate-800 py-5">
+        <section id="hero" className="bg-intro py-5 pb-20">
             <div className="container-section border-[1px] border-gray-100 flex flex-col items-center">
                 <img src={HeroImg} className="max-w-[38rem] w-full" />
                 <div className="font-raleway text-center mt-12 max-w-[38rem] flex flex-col items-center gap-7 px-2 md:px-10">

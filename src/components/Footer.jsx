@@ -12,7 +12,7 @@ const hoverBgCyan = "hover:bg-cta duration-200 transition-all ease-linear"
 export const Footer = () => {
 
     return (
-        <footer className="bg-testimonials pt-52 pb-16" id="footer">
+        <footer className="bg-footer pt-52 pb-16" id="footer">
             <div className="container-footer">
                 <img className="min-w-36 mb-16" src={Favicon} />
                 <div className="text-primary font-raleway grid grid-auto-rows grid-cols-1 gap-10
