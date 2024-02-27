@@ -12,7 +12,7 @@ export const Contact = () => {
                     <div className="flex flex-col md:flex-row gap-6">
                         <input className="rounded-full p-2 py-3 flex-1 indent-5 text-slate-950"
                             type="email" placeholder="email@example.com" />
-                        <button className="text-lg font-bold rounded-full bg-cta px-6 py-3">Get Started For Free</button>
+                        <button className="btn-cta px-6 py-3">Get Started For Free</button>
                     </div>
                 </div>
             </div>

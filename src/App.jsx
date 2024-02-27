@@ -1,10 +1,10 @@
-import { Hero } from './components/Hero'
-import { NavBar } from './components/NavBar'
-import { Features } from './components/Features'
-import { Service } from './components/Service'
-import { Testimonials } from './components/Testimonials'
-import { Contact } from './components/Contact'
-import { Footer } from './components/Footer'
+import { Hero } from './components/Hero/Hero'
+import { NavBar } from './components/Navbar/NavBar'
+import { Features } from './components/Features/Features'
+import { Service } from './components/Service/Service'
+import { Testimonials } from './components/Testimonials/Testimonials'
+import { Contact } from './components/Contact/Contact'
+import { Footer } from './components/Footer/Footer'
 
 export const App = () => {
 

@@ -1,7 +1,7 @@
-import ProfileOne from "../assets/images/profile-1.jpg";
-import ProfileTwo from "../assets/images/profile-2.jpg";
-import ProfileThree from "../assets/images/profile-3.jpg";
-import QuoteImage from "../assets/images/bg-quotes.png";
+import ProfileOne from "../../assets/images/profile-1.jpg";
+import ProfileTwo from "../../assets/images/profile-2.jpg";
+import ProfileThree from "../../assets/images/profile-3.jpg";
+import QuoteImage from "../../assets/images/bg-quotes.png";
 
 export const Testimonials = () => {
 

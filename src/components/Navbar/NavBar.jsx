@@ -1,10 +1,9 @@
 import { useState } from "react";
 import { NavLink } from "./NavLink";
-import { Button } from "./Button";
 
-import Favicon from "../assets/images/logo.svg";
-import HamburguerMenu from "../assets/images/hamburguer.svg";
-import CloseMenu from "../assets/images/close.svg";
+import Favicon from "../../assets/images/logo.svg";
+import HamburguerMenu from "../../assets/images/hamburguer.svg";
+import CloseMenu from "../../assets/images/close.svg";
 
 const links = [
   { name: 'Features', path: "#feature" },
@@ -19,8 +18,6 @@ export const NavBar = () => {
   const toogleNav = () => {
     setNav(!nav);
   }
-
-  //flex flex-row gap-12 text-xl text-primary font-raleway font-light
 
   return (
     <header className="w-full bg-intro sticky top-0 z-50">
@@ -38,7 +35,9 @@ export const NavBar = () => {
                 />
               )
             }
-            <Button/> 
+            <button className="btn-cta py-3 px-8">
+                Sign in
+            </button>
           </ul>
         </div>
         <div onClick={ toogleNav } className="block md:hidden cursor-pointer">

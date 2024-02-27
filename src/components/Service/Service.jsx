@@ -1,5 +1,5 @@
-import ServiceIcon from "../assets/images/illustration-stay-productive.png";
-import ArrowIcon from "../assets/images/icon-arrow.svg";
+import ServiceIcon from "../../assets/images/illustration-stay-productive.png";
+import ArrowIcon from "../../assets/images/icon-arrow.svg";
 
 export const Service = () => {
 

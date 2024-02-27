@@ -1,10 +1,10 @@
-import Favicon from "../assets/images/logo.svg";
-import LocationIcon from "../assets/images/icon-location.svg";
-import PhoneIcon from "../assets/images/icon-phone.svg";
-import EmailIcon from "../assets/images/icon-email.svg";
-import FacebookIcon from "../assets/images/facebook.svg"
-import TwitterIcon from "../assets/images/twitter.svg"
-import InstagramIcon from "../assets/images/instagram.svg"
+import Favicon from "../../assets/images/logo.svg";
+import LocationIcon from "../../assets/images/icon-location.svg";
+import PhoneIcon from "../../assets/images/icon-phone.svg";
+import EmailIcon from "../../assets/images/icon-email.svg";
+import FacebookIcon from "../../assets/images/facebook.svg"
+import TwitterIcon from "../../assets/images/twitter.svg"
+import InstagramIcon from "../../assets/images/instagram.svg"
 
 const hoverTextCyan = "hover:text-cta_hover duration-200 transition-all ease-linear";
 const hoverBgCyan = "hover:bg-cta duration-200 transition-all ease-linear"

@@ -49,4 +49,8 @@ body {
         @apply border-[1px] border-white rounded-full p-[8px] block
     }
 
+    .btn-cta {
+        @apply bg-cta rounded-full text-gray-100 font-semibold hover:bg-cta_hover hover:text-secondary transition-all duration-200 ease-in-out
+    }
+
 }

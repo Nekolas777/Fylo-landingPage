@@ -1,7 +1,7 @@
-import AccessIcon from "../assets/images/icon-access-anywhere.svg";
-import FileIcon from "../assets/images/icon-any-file.svg";
-import CollabIcon from "../assets/images/icon-collaboration.svg";
-import SecurityIcon from "../assets/images/icon-security.svg";
+import AccessIcon from "../../assets/images/icon-access-anywhere.svg";
+import FileIcon from "../../assets/images/icon-any-file.svg";
+import CollabIcon from "../../assets/images/icon-collaboration.svg";
+import SecurityIcon from "../../assets/images/icon-security.svg";
 
 export const Features = () => {
 
