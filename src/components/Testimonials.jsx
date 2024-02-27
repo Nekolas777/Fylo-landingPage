@@ -8,7 +8,7 @@ import QuoteImage from "../assets/images/bg-quotes.png";
 export const Testimonials = () => {
 
     return (
-        <section className="bg-slate-700 py-20">
+        <section className="bg-slate-700 pt-20 pb-96">
             <div className="relative container-section">
                 <div className="relative font-raleway text-primary text-wrap grid grid-rows-3 grid-cols-1 gap-10 px-0
                     md:grid-rows-1 md:grid-cols-3 md:gap-5 lg:gap-10 lg:px-3">
