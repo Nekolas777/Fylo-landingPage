@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink } from "./NavLink";
 
 import Favicon from "../../assets/images/logo.svg";
@@ -14,16 +14,31 @@ const links = [
 export const NavBar = () => {
 
   const [nav, setNav] = useState(false);
+  const [header, setHeader] = useState(false);
 
   const toogleNav = () => {
     setNav(!nav);
   }
 
+  const changeBackground = () => {
+    setHeader(window.scrollY > 0);
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeBackground);
+
+    return () => {
+      window.removeEventListener('scroll', changeBackground)
+    }
+  }, []);
+  
+
   return (
-    <header className="w-full bg-intro sticky top-0 z-50">
+    <header className={`w-full sticky top-0 z-50 ${header? "bg-gray-900": "bg-intro"} 
+      transition-all duration-300 ease`}>
       <nav className="container relative min-h-full h-32 flex items-center justify-between">
         <a href="#"><img className="min-w-36" src={ Favicon }/></a>
-        <div className={`h-[unset] w-11/12 fixed mx-auto ${nav? 'translate-y-[80%]' : 'translate-y-[-100%]'} 
+        <div className={`h-[unset] w-11/12 fixed mx-auto ${nav? 'translate-y-[78%]' : 'translate-y-[-100%]'} 
           md:relative md:flex md:transform-none md:h-auto md:w-auto md:mx-0`}>
           <ul className="h-full bg-slate-500 flex flex-col place-items-center gap-6 py-6 rounded-lg 
               md:relative md:flex md:flex-row md:gap-12 md:rounded-none md:py-0 md:bg-transparent
