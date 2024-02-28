@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { ErrorMessage } from "./ErrorMessage";
 
 export const Contact = () => {
 
@@ -21,9 +22,12 @@ export const Contact = () => {
 
     const handleSubmit = () => {
 
+        // se verifica que el email tenga un caracter antes y despues de '@' y el punto
+        const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(description);
+
         if (description.length <= 0) return;
 
-        if (!description.includes('@')) {
+        if (!isEmailValid) {
 
             setInputError(true);
             buttonRef.current.disabled = true;
@@ -62,12 +66,7 @@ export const Contact = () => {
                             >Get Started For Free
                         </button>
                         {
-                            InputError && 
-                            <small 
-                                className="text-error font-semibold text-sm w-full absolute bottom-0 pl-0 
-                                    translate-y-8 text-center md:text-start md:pl-6"
-                                >Please enter a valid email address
-                            </small>
+                            InputError && <ErrorMessage/>
                         }
                     </div>
                 </div>
