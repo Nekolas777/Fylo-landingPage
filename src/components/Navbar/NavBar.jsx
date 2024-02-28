@@ -1,9 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { NavLink } from "./NavLink";
 
 import Favicon from "../../assets/images/logo.svg";
 import HamburguerMenu from "../../assets/images/hamburguer.svg";
 import CloseMenu from "../../assets/images/close.svg";
+
+const body = document.body;
 
 const links = [
   { name: 'Features', path: "#feature" },
@@ -18,6 +20,8 @@ export const NavBar = () => {
 
   const toogleNav = () => {
     setNav(!nav);
+
+    body.classList.toggle('overlay');
   }
 
   const changeBackground = () => {
@@ -36,11 +40,12 @@ export const NavBar = () => {
   return (
     <header className={`w-full sticky top-0 z-50 ${header? "bg-gray-900": "bg-intro"} 
       transition-all duration-300 ease`}>
-      <nav className="container relative min-h-full h-32 flex items-center justify-between">
+      <nav className="container relative min-h-full h-28 flex items-center justify-between">
         <a href="#"><img className="min-w-36" src={ Favicon }/></a>
-        <div className={`h-[unset] w-11/12 fixed mx-auto ${nav? 'translate-y-[78%]' : 'translate-y-[-100%]'} 
-          md:relative md:flex md:transform-none md:h-auto md:w-auto md:mx-0`}>
-          <ul className="h-full bg-slate-500 flex flex-col place-items-center gap-6 py-6 rounded-lg 
+        <div className={`w-11/12 fixed opacity-100 mx-auto
+          ${nav? 'top-32 translate-x-[0%] opacity-100 transition-all duration-300 ease-out' : 'translate-x-[-120%] opacity-0'} 
+          md:relative md:flex md:h-auto md:w-auto md:mx-0 md:transform-none md:content-none md:transition-none`}>
+          <ul className="h-full bg-slate-100 flex flex-col place-items-center gap-6 py-6 rounded-lg 
               md:relative md:flex md:flex-row md:gap-12 md:rounded-none md:py-0 md:bg-transparent
               font-raleway text-xl">
             {

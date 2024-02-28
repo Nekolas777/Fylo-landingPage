@@ -12,6 +12,7 @@
 body {
     min-height: 100vh;
     color: #333;
+    position: relative;
 }
 
 @layer components {
@@ -51,6 +52,19 @@ body {
 
     .btn-cta {
         @apply bg-cta rounded-full text-gray-100 font-semibold hover:bg-cta_hover hover:text-secondary transition-all duration-200 ease-in-out
+    }
+
+    .overlay::before {
+        @apply
+            content-['']
+            absolute
+            top-0
+            left-0
+            bottom-0
+            right-0
+            bg-black
+            bg-opacity-50
+            z-40
     }
 
 }
