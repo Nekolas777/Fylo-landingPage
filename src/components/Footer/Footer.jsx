@@ -19,7 +19,8 @@ export const Footer = () => {
                     md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg: lg:grid-cols-4" >
                     <div className="flex flex-row gap-5 md:items-center 
                         md:order-1 lg:order-1 lg:items-start">
-                        <img className="min-h-5 min-w-5 self-start md:self-auto" src={ LocationIcon } alt="_location"/>
+                        <img className="min-h-5 min-w-5 self-start md:self-auto hover:scale-110" 
+                            src={ LocationIcon } alt="_location"/>
                         <p className="font-sans max-w-fit text-balance">
                             Calle de los Sueños 666 Ciudad Soñada, SO 12345 País de las Maravillas, Imaginario S.A.</p>
                     </div>
@@ -27,11 +28,13 @@ export const Footer = () => {
                         md:order-3 lg:order-2 lg:items-center lg:justify-start">
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-row gap-5">
-                                <img className="h-5 w-5 cursor-pointer" src={PhoneIcon} alt="_phone"/>
+                                <img className="h-5 w-5 cursor-pointer hover:scale-110" 
+                                    src={PhoneIcon} alt="_phone"/>
                                 <p className="font-sans">+1-543-123-4567</p>
                             </div>
                             <div className="flex flex-row gap-5">
-                                <img className="h-5 w-5 cursor-pointer" src={EmailIcon} alt="_email"/>
+                                <img className="h-5 w-5 cursor-pointer hover:scale-110" 
+                                    src={EmailIcon} alt="_email"/>
                                 <p>example@fylo.com</p>
                             </div>
                         </div>
