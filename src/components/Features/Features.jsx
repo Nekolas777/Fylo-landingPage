@@ -1,5 +1,5 @@
 import { FeatureCard } from "./FeatureCard";
-import data from "../../static/Features.json";
+import data from "/public/static/Features.json";
 
 export const Features = () => {
 

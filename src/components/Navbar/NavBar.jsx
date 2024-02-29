@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
-import Favicon from "../../assets/images/logo.svg";
-import HamburguerMenu from "../../assets/images/hamburguer.svg";
-import CloseMenu from "../../assets/images/close.svg";
+import Favicon from "/public/images/logo.svg";
+import HamburguerMenu from "/public/images/hamburguer.svg";
+import CloseMenu from "/public/images/close.svg";
 import { NavMenu } from "./NavMenu";
 
 const body = document.body;

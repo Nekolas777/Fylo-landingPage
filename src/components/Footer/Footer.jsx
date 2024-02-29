@@ -1,4 +1,4 @@
-import Favicon from "../../assets/images/logo.svg";
+import Favicon from "/public/images/logo.svg";
 import { FooterDirection } from "./FooterDirection";
 import { FooterContact } from "./FooterContact";
 import { FooterLinks } from "./FooterLinks";

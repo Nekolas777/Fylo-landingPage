@@ -1,7 +1,7 @@
-import QuoteImage from "../../assets/images/bg-quotes.png";
+import QuoteImage from "/public/images/bg-quotes.png";
 import { TestimonialCard } from "./TestimonialCard";
 
-import data from "../../static/Testimonials.json";
+import data from "/public/static/Testimonials.json";
 
 export const Testimonials = () => {
 

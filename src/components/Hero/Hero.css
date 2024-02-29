@@ -1,6 +1,6 @@
 #hero {
     border: none;
-    background-image: url('../../assets/images/bg-curvy-mobile.svg');
+    background-image: url('/public/images/bg-curvy-mobile.svg');
     background-repeat: no-repeat;
     background-size: auto 55%;
     background-position: bottom;
@@ -9,7 +9,7 @@
 @media (min-width: 1024px) {
 
     #hero {
-        background-image: url('../../assets/images/bg-curvy-desktop.svg');
+        background-image: url('/public/images/bg-curvy-desktop.svg');
         background-size: 100% 45%;
     }
 }

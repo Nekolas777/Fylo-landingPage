@@ -1,5 +1,5 @@
-import PhoneIcon from "../../assets/images/icon-phone.svg";
-import EmailIcon from "../../assets/images/icon-email.svg";
+import PhoneIcon from "/public/images/icon-phone.svg";
+import EmailIcon from "/public/images/icon-email.svg";
 
 export const FooterContact = () => {
     return (

@@ -1,4 +1,4 @@
-import LocationIcon from "../../assets/images/icon-location.svg";
+import LocationIcon from "/public/images/icon-location.svg";
 
 export const FooterDirection = () => {
     return (

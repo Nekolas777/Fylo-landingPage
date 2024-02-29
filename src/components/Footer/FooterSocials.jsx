@@ -1,6 +1,6 @@
-import FacebookIcon from "../../assets/images/facebook.svg"
-import TwitterIcon from "../../assets/images/twitter.svg"
-import InstagramIcon from "../../assets/images/instagram.svg"
+import FacebookIcon from "/public/images/facebook.svg"
+import TwitterIcon from "/public/images/twitter.svg"
+import InstagramIcon from "/public/images/instagram.svg"
 
 const hoverBgCyan = "hover:bg-cta duration-200 transition-all ease-linear"
 

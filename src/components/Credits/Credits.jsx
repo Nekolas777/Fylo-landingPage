@@ -1,4 +1,4 @@
-import HeartIcon from "../../assets/images/heart-icon.png";
+import HeartIcon from "/public/images/heart-icon.png";
 
 export const Credits = () => {
     return (
