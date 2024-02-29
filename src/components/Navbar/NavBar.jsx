@@ -34,7 +34,7 @@ export const NavBar = () => {
   return (
     <header className={`w-full sticky top-0 z-50 ${header? "bg-gray-900": "bg-intro"} 
       transition-all duration-300 ease`}>
-      <nav className="container relative min-h-full h-28 flex items-center justify-between">
+      <nav className="container relative min-h-full h-32 flex items-center justify-between">
         <a href="#"><img className="min-w-36" src={ Favicon }/></a>
         <NavMenu
           nav={ nav }

@@ -5,6 +5,7 @@ import { Service } from './components/Service/Service'
 import { Testimonials } from './components/Testimonials/Testimonials'
 import { Contact } from './components/Contact/Contact'
 import { Footer } from './components/Footer/Footer'
+import { Credits } from './components/Credits/Credits'
 
 export const App = () => {
 
@@ -19,6 +20,7 @@ export const App = () => {
         <Contact />
       </main>
       <Footer />
+      <Credits/>
     </>
   )
 
